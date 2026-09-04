@@ -8,5 +8,21 @@ body {
     padding: 4em 1em;
     margin-top: 1em;
     padding-top: 1em;
-    
+    color: #555;
+    h2 {
+
+        color: #333;
+      
+      }
+      code {
+
+        padding: 2px 4px;
+      
+        vertical-align: text-bottom;
+      
+        background: #eee;
+      
+      }
   }
+
+  
