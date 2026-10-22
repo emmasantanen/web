@@ -13,7 +13,9 @@
     for ($i = 1; $i <= 10; $i++) {
         echo "<li>" . $i;
         echo "Tervetuloa PHP maailmaan!"; 
-         $i = 
+        while (condition) {
+          $i = "Tervetuloa Php maailmaan";
+        }
     }
     echo "</ul>";
     ?>
