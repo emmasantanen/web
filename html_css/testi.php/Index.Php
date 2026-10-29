@@ -11,12 +11,10 @@
     <?php
     echo "<ul>";
     for ($i = 1; $i <= 10; $i++) {
-        echo "<li>" . $i;
-        echo "Tervetuloa PHP maailmaan!"; 
-        while (condition) {
+         echo "<li>" . $i;
+         echo "Tervetuloa PHP maailmaan!"; 
           $i = "Tervetuloa Php maailmaan";
         }
-    }
     echo "</ul>";
     ?>
   </body>
