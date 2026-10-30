@@ -10,8 +10,8 @@
 
     <?php
     $echo = "Tervetuloa Php maailmaan"
-    $ker = 5;
-    
+    $kerrat = 5;
+    ?>
     echo "<ul>";
     for ($i = 1; $i <= 10; $i++) {
         echo "<li>" . $i;
