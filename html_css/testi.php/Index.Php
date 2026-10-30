@@ -9,7 +9,7 @@
     <p>Palvelimella on PHP:n versio <?php echo PHP_VERSION; ?>.</p>
 
     <?php
-    $echo = "Tervetuloa Php maailmaan"
+    $echo = "Tervetuloa Php maailmaan";
     $kerrat = 5;
     ?>
     echo "<ul>";
