@@ -11,15 +11,14 @@
     <?php
     $echo = "Tervetuloa Php maailmaan";
     $kerrat = 5;
+     $laskuri = 1; 
+    echo "<ul>";
     
-     $i = 1;
-     
-     echo "<ul>";
-     while = $i = $kerrat;
-     for ($i = 1; $i <= 10; $i++) {
-        echo "<li>" . $i;
+    while ($laskuri <= $kerrat) {
+        echo "<li>" . $tervehdys . " (Kerta " . $laskuri . ")</li>";
+        $laskuri++;
     }
-    echo "</ul>";
+     echo "</ul>";
     ?>
   </body>
 </html>
