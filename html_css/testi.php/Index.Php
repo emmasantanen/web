@@ -11,12 +11,14 @@
     echo "<ul>";
     for ($i = 1; $i <= 10; $i++) {
         echo "<li>" . $i;
-    }
+    
     echo "</ul>";
+    ?>
+     <?php
     $tervehdys = "Tervetuloa PHP maailmaan ";
     $kerrat = 5;
     $laskuri = 0;
-    while ($laskuri < $kerrat) {
+    while ($laskuri < $kerrat) 
         echo $tervehdys;
         $laskuri++;
     }
