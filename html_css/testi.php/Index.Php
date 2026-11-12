@@ -13,12 +13,9 @@
         echo "<li>" . $i;
     }
     echo "</ul>";
-    ?>
-     <?php
     $tervehdys = "Tervetuloa PHP maailmaan ";
     $kerrat = 5;
     $laskuri = 0;
-
     while ($laskuri < $kerrat) {
         echo $tervehdys;
         $laskuri++;
