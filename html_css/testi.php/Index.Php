@@ -8,11 +8,11 @@
     <p>Tänään on <?php echo date("j.n.Y"); ?>.</p>
     <p>Palvelimella on PHP:n versio <?php echo PHP_VERSION; ?>.</p>
     <?php
-      echo "<ul>";
+      echo <ul>;
       for ($i = 1; $i <= 10; $i++) {
-      echo "<li>" . $i . "</li>";
+      echo <li> . $i . </li>;
       }
-      echo "</ul>";
+      echo </ul>;
       ?>
 
       <?php
