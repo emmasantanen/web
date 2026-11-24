@@ -21,7 +21,7 @@
       $laskuri = 0;
 
      while ($laskuri < $kerrat) { 
-     echo $tervehdys . <br>;
+     echo $tervehdys;
      $laskuri++;
      }
     ?>
